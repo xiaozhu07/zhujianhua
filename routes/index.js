@@ -1,7 +1,7 @@
 module.exports = function(app){
   /* GET home page. */
   app.get('/', function(req, res, next) {
-    res.render('success',{issuccess:"success"})
+    res.render('success',{issuccess:"success111"})
   });
   app.get('/interface',function(req,res){
     //设置token
