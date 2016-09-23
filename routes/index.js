@@ -84,7 +84,7 @@ module.exports = function(app){
           CreateTime=parseInt(new Date().getTime() / 1000);
           var msg="";
           if(MsgType=="text"){
-            msg="谢谢关注,你说的是:"+Content;
+            msg="谢谢关注,郑俊青真漂亮:"+Content;
             //组织返回的数据包
             var sendMessage=' ' +
                 '<xml>' +
